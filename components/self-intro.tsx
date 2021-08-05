@@ -4,7 +4,7 @@ export default function SelfIntro() {
   return <section className={styles.markdown + " max-w-2xl pb-2 md:pb-0"}>
     <p>Hi There. My name is Yichen Wei.</p>
     <p>
-      I am a junior in college pursuing a degree in computer science at {" "}
+      I am a junior in college studying computer science at {" "}
       <a href="https://tufts.edu">Tufts University</a>. 
       I am interested in computer science, front-end technologies, 
       cloud-computing technologies like serverless, and machine learning.
@@ -38,7 +38,7 @@ export default function SelfIntro() {
       {" "}<a href="https://pjsekai.sega.jp/">Project Sekai</a>. I
       have a large boardgame collection.
       Other than this, I also enjoy 
-      watching Anime, photography and traveling.
+      Anime, karaoke, photography and traveling.
     </p>
     <p>
       I occationally write about thoughts on tech and on my life, where
