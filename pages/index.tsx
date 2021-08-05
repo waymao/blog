@@ -12,7 +12,7 @@ export default function Index({ content }) {
     <>
       <Layout>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>Blog</title>
         </Head>
         <Container>
           <Intro />
