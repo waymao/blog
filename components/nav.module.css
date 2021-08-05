@@ -1,0 +1,12 @@
+.nav {
+  > ol {
+    > li {
+      @apply mx-1 md:mx-2 text-gray-300;
+      display: inline-block;
+
+      &.hl, &:hover {
+        @apply text-black;
+      }
+    }
+  }
+}

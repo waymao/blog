@@ -9,6 +9,11 @@ module.exports = {
         success: '#0070f3',
         cyan: '#79FFE1',
       },
+      fontFamily: {
+        'sans': ['ui-sans-serif', 'system-ui', 'sans-serif'],
+        'serif': ['"Playfair Display"', '"Noto Serif SC"', 'ui-serif', 'Georgia'],
+        'mono': ['ui-monospace', 'SFMono-Regular']
+      },
       spacing: {
         28: '7rem',
       },
@@ -21,6 +26,7 @@ module.exports = {
       fontSize: {
         '5xl': '2.5rem',
         '6xl': '2.75rem',
+        '6.5xl': '3.5rem',
         '7xl': '4.5rem',
         '8xl': '6.25rem',
       },

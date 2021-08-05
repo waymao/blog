@@ -1,0 +1,20 @@
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  > a {
+    @apply text-gray-500 transition-colors;
+    padding: 0 .5rem;
+
+    > svg {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    > svg:hover {
+      @apply text-gray-900;
+    }
+  }
+}
+
