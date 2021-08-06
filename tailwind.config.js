@@ -18,7 +18,7 @@ module.exports = {
       fontFamily: {
         'sans': ['ui-sans-serif', 'system-ui', 'sans-serif'],
         'serif': ['"Playfair Display"', '"Noto Serif SC"', 'ui-serif', 'Georgia'],
-        'mono': ['ui-monospace', 'SFMono-Regular']
+        'mono': ['"Source Code Pro"', 'ui-monospace', 'SFMono-Regular']
       },
       spacing: {
         28: '7rem',

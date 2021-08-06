@@ -1,8 +1,8 @@
 import Container from '../components/container'
-import Intro from '../components/intro'
+import Intro from '../components/main-page/intro'
 import Layout from '../components/layout'
 import Head from 'next/head'
-import SelfIntro from '../components/self-intro'
+import SelfIntro from '../components/main-page/self-intro'
 
 export default function Index({ content }) {
   return (
