@@ -39,7 +39,7 @@ export default function Index({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
+  const allPosts = getAllPosts('tech', [
     'title',
     'date',
     'slug',

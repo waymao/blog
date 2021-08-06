@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
+import ArticleList from '../components/article-list/article-list'
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0]
@@ -20,20 +21,12 @@ export default function Index({ allPosts }) {
           <Intro>
             <i>Life.</i>
           </Intro>
-          Here I sometimes write about my life and my thoughts.
-          Please note that some of them might appear in Chinese, 
-          which I might try to translate soon.
-          {/* {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
+          <section className="max-w-4xl mx-auto">
+            Here I sometimes write about my life outside of tech and my thoughts.
+            Some of them might be written in Chinese, 
+            which I will try to translate soon.
+            <ArticleList articles={allPosts}/>
+          </section>
         </Container>
       </Layout>
     </>
@@ -41,7 +34,7 @@ export default function Index({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
+  const allPosts = getAllPosts('life', [
     'title',
     'date',
     'slug',
