@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
+import ArticleList from '../components/article-list/article-list'
 
 export default function Index({ allPosts }) {
   const heroPost = allPosts[0]
@@ -20,18 +21,10 @@ export default function Index({ allPosts }) {
           <Intro>
             <span className="font-mono">Tech.</span>
           </Intro>
-          Tech Section is under construction...
-          {/* {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
+          <section className="max-w-4xl mx-auto">
+            Here I sometimes write about my tech experience.
+            <ArticleList articles={allPosts}/>
+          </section>
         </Container>
       </Layout>
     </>

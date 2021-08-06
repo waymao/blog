@@ -11,7 +11,10 @@ export interface PostInfo {
   excerpt?: string,
   category: string,
   date: string,
-  coverImage?: string
+  coverImage?: string,
+  ogImage: {
+    url: string
+  }
 }
 
 export function getPostSlugs() {
