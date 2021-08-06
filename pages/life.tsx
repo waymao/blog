@@ -20,7 +20,9 @@ export default function Index({ allPosts }) {
           <Intro>
             <i>Life.</i>
           </Intro>
-          Life Section is under construction...
+          Here I sometimes write about my life and my thoughts.
+          Please note that some of them might appear in Chinese, 
+          which I might try to translate soon.
           {/* {heroPost && (
             <HeroPost
               title={heroPost.title}
