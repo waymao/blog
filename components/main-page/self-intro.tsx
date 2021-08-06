@@ -1,4 +1,4 @@
-import styles from './markdown-styles.module.css';
+import styles from '../markdown-styles.module.css';
 
 export default function SelfIntro() {
   return <section className={styles.markdown + " max-w-2xl pb-2 md:pb-0"}>
