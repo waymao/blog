@@ -8,6 +8,8 @@ ogImage:
   subtitle: 'The first Five Guys in China is located on Middle Huaihai Rd in Shanghai.'
 ---
 
+Note: some part of this article is imaginary.
+
 Today I went to an Apple Store to fix my Mac's keyboard. 
 The very lovely Apple Store staff told me that due to a leap day last year,
 the extended warranty on my Mac expired yesterday.
@@ -27,6 +29,7 @@ Walking to the counter, I ordered a hot dog and a cup of cajun fries -- that caj
 "Well, I guess I had no choice but to use this WeChat Pay QRCode, then." Feeling embarrassed, I launched WeChat on my smartphone, opened up the payment Code, and showed that to the cashier.
 
 ---
+注：本文存在部分虚构内容。
 
 今天去修电脑键盘，apple store小姐姐热情地告诉我，因为闰年问题它已经在昨天过保了。心情一般的我走出iapm，望到了隔壁刚开张的五个伙计汉堡店。
 
