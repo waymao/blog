@@ -33,7 +33,7 @@ export default function Post({ post }: {post: PostInfo}) {
               </Head>
               <PostHeader
                 title={post.title}
-                coverImage={post.coverImage}
+                coverImage={post.ogImage}
                 date={post.date}
               />
               <PostBody content={post.content} />

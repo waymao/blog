@@ -12,7 +12,7 @@ export default function ArticleBlock({ post }: {post: PostInfo}) {
     </h3>
     
     <p>{post.excerpt ?? ""}</p>
-    <p className="text-gray-700 text-sm"><DateFormatter dateString={post.date}/></p>
+    <p className="text-gray-700 text-sm mt-2"><DateFormatter dateString={post.date}/></p>
   </div>
   )
 }

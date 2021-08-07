@@ -13,7 +13,8 @@ export interface PostInfo {
   date: string,
   coverImage?: string,
   ogImage: {
-    url: string
+    url: string,
+    subtitle?: string
   }
 }
 
