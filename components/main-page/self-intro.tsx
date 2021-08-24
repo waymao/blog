@@ -1,4 +1,5 @@
 import styles from '../markdown-styles.module.css';
+import Link from 'next/link';
 
 export default function SelfIntro() {
   return <section className={styles.markdown + " max-w-2xl pb-2 md:pb-0"}>
@@ -48,6 +49,15 @@ export default function SelfIntro() {
     <p>
       You can find my resume
       {" "}<a href="/assets/resume.pdf">here</a>.
+    </p>
+    <p className="mt-4">
+      <i>
+        This site is still a work in progress. 
+        You can see my 
+        todo-list <Link href="/posts/website-todo">here</Link>,
+        or follow the 
+        development <a href="https://github.com/waymao/blog">here</a>.
+      </i>
     </p>
 
   </section>
