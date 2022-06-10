@@ -2,7 +2,7 @@
 title: 'My visit to the first Five Guys in China'
 excerpt: 'After being away from America for well over a year, I went to the first Five Guys in China, recently opened in Shanghai.'
 date: '2021-07-30T13:00:00.000Z'
-category: 'life'
+category: ''
 ogImage:
   url: '/assets/blog/2021/first-five-guys-in-china.jpg'
   subtitle: 'The first Five Guys in China is located on Middle Huaihai Rd in Shanghai.'
